@@ -27,7 +27,7 @@ namespace Lab2_POMS
             if (growth == 0 || weight == 0)
             {
                 DisplayAlert("0", "0", "Ок");
-                return;
+                return;//qwer
             }
 
             string res = "";
@@ -63,6 +63,7 @@ namespace Lab2_POMS
         {
             base.OnSizeAllocated(width, height);
             changeOrintationMaket(height < width);
+
         }
         private void changeOrintationMaket(bool isHorizontal)
         {
